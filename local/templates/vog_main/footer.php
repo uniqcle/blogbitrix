@@ -2,12 +2,21 @@
 
 	</div>
 	<div class="col-md-3 bann-left">
+		
 		<div class="b-search">
-			<form>
-				<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-				<input type="submit" value="">
-			</form>
+			<?$APPLICATION->IncludeComponent(
+			"bitrix:main.include",
+			"",
+			Array(
+			"AREA_FILE_SHOW" => "file",
+			"AREA_FILE_SUFFIX" => "inc",
+			"EDIT_TEMPLATE" => "",
+			"PATH" => "include/search.php"
+			)
+			);?>
 		</div>
+
+
 		<h3>Recent Posts</h3>
 		<div class="blo-top">
 			<div class="blog-grids">
