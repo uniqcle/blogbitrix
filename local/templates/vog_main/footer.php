@@ -199,7 +199,7 @@
 		"AREA_FILE_SHOW" => "file",
 		"AREA_FILE_SUFFIX" => "inc",
 		"EDIT_TEMPLATE" => "",
-		"PATH" => "include/copyright.php"
+		"PATH" => "/include/copyright.php"
 	)
 );?><br>
 
