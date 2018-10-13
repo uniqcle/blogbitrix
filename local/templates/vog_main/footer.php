@@ -2,7 +2,7 @@
 
 	</div>
 	<div class="col-md-3 bann-left">
-		
+
 		<div class="b-search">
 			<?$APPLICATION->IncludeComponent(
 			"bitrix:main.include",
@@ -11,7 +11,7 @@
 			"AREA_FILE_SHOW" => "file",
 			"AREA_FILE_SUFFIX" => "inc",
 			"EDIT_TEMPLATE" => "",
-			"PATH" => "include/search.php"
+			"PATH" => "/include/search.php"
 			)
 			);?>
 		</div>

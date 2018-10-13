@@ -1,6 +1,3 @@
-<p>
-	<form>
-				<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-				<input type="submit" value="">
-			</form>
-</p>
+<form>
+ <input value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" type="text"> <input value="" type="submit">
+</form>
