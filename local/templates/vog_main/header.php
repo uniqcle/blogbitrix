@@ -62,7 +62,7 @@
 	<div class="header">
 		<div class="container">
 			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" class="img-responsive" alt=""></a>
+				<a href="index.html"><img src="<?=SITE_TEMPLATE_PATH ?>/images/logo.png" class="img-responsive" alt=""></a>
 			</div>
 			
 				<div class="head-nav">
