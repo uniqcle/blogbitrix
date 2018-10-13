@@ -1,0 +1,1 @@
+<a href="/"><img src="/local/templates/vog_main/images/logo.png" class="img-responsive" alt=""></a>
