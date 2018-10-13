@@ -58,6 +58,7 @@
 	
 </head>
 <body>
+	<div id="panel"><?php $APPLICATION->ShowPanel() ?></div>
 <!-- header -->
 	<div class="header">
 		<div class="container">
