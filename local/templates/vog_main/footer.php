@@ -180,7 +180,25 @@
 			
 			<div class="clearfix"> </div>
 			<div class="copyright">
-				<p>Copyrights © 2015 Voguish All rights reserved | Template by <a href="http://w3layouts.com/">W3layouts</a></p>
+				<p>
+
+<?$APPLICATION->IncludeComponent(
+	"bitrix:main.include",
+	"",
+	Array(
+		"AREA_FILE_RECURSIVE" => "Y",
+		"AREA_FILE_SHOW" => "file",
+		"AREA_FILE_SUFFIX" => "inc",
+		"EDIT_TEMPLATE" => "",
+		"PATH" => "include/copyright.php"
+	)
+);?><br>
+
+					
+
+					</a>
+
+				</p>
 			</div>
 		</div>
 	</div>
