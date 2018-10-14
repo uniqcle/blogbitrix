@@ -150,7 +150,7 @@
 									
 								});
 								</script>
-								<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH ?>/js/jquery.flexisel.js"></script>
+								<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH ?>./js/jquery.flexisel.js"></script>
 					<div class="clearfix"> </div>
 		</div>
 		<div class="footer">
@@ -203,9 +203,7 @@
 	)
 );?><br>
 
-					
-
-					</a>
+ 
 
 				</p>
 			</div>

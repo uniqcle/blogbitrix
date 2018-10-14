@@ -86,7 +86,7 @@
 				);?>
 				</div>
 			
-
+<div class="head-nav">
 				<?$APPLICATION->IncludeComponent("bitrix:menu", "main_menu", Array(
 					"ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
 						"CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
@@ -103,7 +103,7 @@
 					),
 					false
 				);?>
-			
+</div>				
 					<!-- 
 					<div class="head-nav">
 					<span class="menu"> </span>
@@ -136,5 +136,9 @@
 		</div>
 	</div>
 <!-- header -->
-<div class="container">
-	<div class="col-md-9 bann-right">
+	<!-- Blog -->
+	<div class="container">
+		<div class="blog">
+			
+		<div class="blog-content">
+					<div class="blog-content-left">
