@@ -21,7 +21,7 @@
 		<div class="blo-top">
 			<div class="blog-grids">
 				<div class="blog-grid-left">
-					<a href="single.html"><img src="<?=SITE_TEMPLATE_PATH ?>/images/1b.jpg" class="img-responsive" alt=""></a>
+					<a href="single.html"><img src="<?=SITE_TEMPLATE_DEFAULT ?>/images/1b.jpg" class="img-responsive" alt=""></a>
 				</div>
 				<div class="blog-grid-right">
 					<h4><a href="single.html">Little Invaders </a></h4>
@@ -31,7 +31,7 @@
 			</div>
 			<div class="blog-grids">
 				<div class="blog-grid-left">
-					<a href="single.html"><img src="<?=SITE_TEMPLATE_PATH ?>/images/2b.jpg" class="img-responsive" alt=""></a>
+					<a href="single.html"><img src="<?=SITE_TEMPLATE_DEFAULT ?>/images/2b.jpg" class="img-responsive" alt=""></a>
 				</div>
 				<div class="blog-grid-right">
 					<h4><a href="single.html">Little Invaders </a></h4>
@@ -41,7 +41,7 @@
 			</div>
 			<div class="blog-grids">
 				<div class="blog-grid-left">
-					<a href=""><img src="<?=SITE_TEMPLATE_PATH ?>/images/3b.jpg" class="img-responsive" alt=""></a>
+					<a href=""><img src="<?=SITE_TEMPLATE_DEFAULT ?>/images/3b.jpg" class="img-responsive" alt=""></a>
 				</div>
 				<div class="blog-grid-right">
 					<h4><a href="single.html">Little Invaders </a></h4>
@@ -81,42 +81,42 @@
 				<li>
 					<a href="#">
 						<div class="banner-1">
-							<img src="<?=SITE_TEMPLATE_PATH ?>/images/6.jpg" class="img-responsive" alt="">
+							<img src="<?=SITE_TEMPLATE_DEFAULT ?>/images/6.jpg" class="img-responsive" alt="">
 						</div>
 					</a>
 				</li>
 				<li>
 					<a href="#">
 						<div class="banner-1">
-							<img src="<?=SITE_TEMPLATE_PATH ?>/images/5.jpg" class="img-responsive" alt="">
+							<img src="<?=SITE_TEMPLATE_DEFAULT ?>/images/5.jpg" class="img-responsive" alt="">
 						</div>
 					</a>
 				</li>			
 				<li>
 					<a href="#">
 						<div class="banner-1">
-							<img src="<?=SITE_TEMPLATE_PATH ?>/images/1.jpg" class="img-responsive" alt="">
+							<img src="<?=SITE_TEMPLATE_DEFAULT ?>/images/1.jpg" class="img-responsive" alt="">
 						</div>
 					</a>
 				</li>		
 				<li>
 					<a href="#">
 						<div class="banner-1">
-							<img src="<?=SITE_TEMPLATE_PATH ?>/images/4.jpg" class="img-responsive" alt="">
+							<img src="<?=SITE_TEMPLATE_DEFAULT ?>/images/4.jpg" class="img-responsive" alt="">
 						</div>
 					</a>
 				</li>	
 				<li>
 					<a href="#">
 						<div class="banner-1">
-							<img src="<?=SITE_TEMPLATE_PATH ?>/images/6.jpg" class="img-responsive" alt="">
+							<img src="<?=SITE_TEMPLATE_DEFAULT ?>/images/6.jpg" class="img-responsive" alt="">
 						</div>
 					</a>
 				</li>	
 				<li>
 					<a href="#">
 						<div class="banner-1">
-							<img src="<?=SITE_TEMPLATE_PATH ?>/images/1.jpg" class="img-responsive" alt="">
+							<img src="<?=SITE_TEMPLATE_DEFAULT ?>/images/1.jpg" class="img-responsive" alt="">
 						</div>
 					</a>
 				</li>				
@@ -150,7 +150,7 @@
 									
 								});
 								</script>
-								<script type="text/javascript" src="<?=SITE_TEMPLATE_PATH ?>./js/jquery.flexisel.js"></script>
+								<script type="text/javascript" src="<?=SITE_TEMPLATE_DEFAULT ?>./js/jquery.flexisel.js"></script>
 					<div class="clearfix"> </div>
 		</div>
 		<div class="footer">

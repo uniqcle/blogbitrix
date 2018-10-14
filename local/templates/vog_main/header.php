@@ -22,16 +22,16 @@
 	/*******************************************************
 	// Подключаем Css
 	********************************************************/
-	Asset::getInstance()->addCss(SITE_TEMPLATE_PATH.'/css/bootstrap.css'); 
-	Asset::getInstance()->addCss(SITE_TEMPLATE_PATH.'/css/style.css'); 
+	Asset::getInstance()->addCss(SITE_TEMPLATE_DEFAULT.'/css/bootstrap.css'); 
+	Asset::getInstance()->addCss(SITE_TEMPLATE_DEFAULT.'/css/style.css'); 
 
 	/*******************************************************
 	// Подключаем JS скрипты
 	********************************************************/
 	//CJSCore::Init(['jquery']); //Из самого Битрикс
-	Asset::getInstance()->addJs(SITE_TEMPLATE_PATH.'/js/jquery.min.js'); 
-	Asset::getInstance()->addJs(SITE_TEMPLATE_PATH.'/js/jquery.flexisel.js'); 
-	Asset::getInstance()->addJs(SITE_TEMPLATE_PATH.'/js/responsiveslides.min.js'); 
+	Asset::getInstance()->addJs(SITE_TEMPLATE_DEFAULT.'/js/jquery.min.js'); 
+	Asset::getInstance()->addJs(SITE_TEMPLATE_DEFAULT.'/js/jquery.flexisel.js'); 
+	Asset::getInstance()->addJs(SITE_TEMPLATE_DEFAULT.'/js/responsiveslides.min.js'); 
 
 	Asset::getInstance()->addString('<meta name="viewport" content="width=device-width, initial-scale=1">'); 
 	Asset::getInstance()->addString("<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>");
